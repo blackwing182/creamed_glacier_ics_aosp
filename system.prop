@@ -64,12 +64,6 @@ net.tcp.buffersize.hsdpa=4094,87380,393216,4096,16384,110208
 #For USB mount
 persist.sys.usb.config=mass_storage,adb
 
-#For WiFi Calling
-ro.ril.enable.ganlite=1
-rild.libpath.ganlite=/system/lib/librilswitch.so
-rilswitch.vendorlibpath=/system/lib/libhtc_ril.so
-rilswitch.ganlibpath=/system/lib/libganril.so
-
 #HW accel
 debug.fb.rgb565=0
 debug.sf.hw=1
@@ -97,3 +91,9 @@ persist.adb.notify=0
 ro.media.enc.jpeg.quality=100
 ro.media.dec.jpeg.memcap=8000000
 ro.media.enc.hprof.vid.bps=8000000
+
+#For WiFi Calling
+ro.ril.enable.ganlite=1
+rild.libpath.ganlite=/system/lib/librilswitch.so
+rilswitch.vendorlibpath=/system/lib/libhtc_ril.so
+rilswitch.ganlibpath=/system/lib/libganril.so
